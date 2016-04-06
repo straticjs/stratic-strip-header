@@ -12,7 +12,7 @@
 var remark = require('remark');
 var stripHeader = require('stratic-strip-header');
 
-var processor = remark().use(stripHeader, {data: fileData});
+var processor = remark().use(stripHeader);
 
 var doc = processor.process([
     '# Post information',
@@ -27,7 +27,8 @@ console.log(doc);
 Outputs:
 
 ```
-TODO
+Some arbitrary Markdown content
+
 ```
 
 ## License
