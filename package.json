@@ -1,0 +1,25 @@
+{
+  "name": "stratic-strip-header",
+  "version": "1.0.0",
+  "description": "remark plugin to strip out a standard Stratic header",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strugee/stratic-strip-header.git"
+  },
+  "keywords": [
+    "stratic",
+    "remark"
+  ],
+  "author": "Alex Jordan <alex@strugee.net>",
+  "license": "LGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/strugee/stratic-strip-header/issues"
+  },
+  "homepage": "https://github.com/strugee/stratic-strip-header#readme",
+  "dependencies": {
+  }
+}
